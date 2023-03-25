@@ -56,17 +56,3 @@ export const { useGetCryptosQuery, useGetCryptoDetailsQuery, useGetCryptoHistory
 
 
 
-/*
-const options = {
-	method: 'GET',
-	headers: {
-		'X-RapidAPI-Key': '7ea092cf0amshf5562f5cb8a3fb5p1d9679jsn10e8d70702bf',
-		'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com'
-	}
-};
-
-fetch('https://coinranking1.p.rapidapi.com/coins?referenceCurrencyUuid=yhjMzLPhuIDl&timePeriod=24h&tiers%5B0%5D=1&orderBy=marketCap&orderDirection=desc&limit=50&offset=0', options)
-	.then(response => response.json())
-	.then(response => console.log(response))
-	.catch(err => console.error(err));
-    */
